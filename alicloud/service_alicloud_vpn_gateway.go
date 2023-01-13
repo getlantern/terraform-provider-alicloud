@@ -9,7 +9,7 @@ import (
 	"fmt"
 
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/vpc"
-	"github.com/aliyun/terraform-provider-alicloud/alicloud/connectivity"
+	"github.com/getlantern/terraform-provider-alicloud/alicloud/connectivity"
 )
 
 type VpnGatewayService struct {

@@ -3,7 +3,7 @@ package alicloud
 import (
 	cs "github.com/alibabacloud-go/cs-20151215/v3/client"
 	"github.com/alibabacloud-go/tea/tea"
-	"github.com/aliyun/terraform-provider-alicloud/alicloud/connectivity"
+	"github.com/getlantern/terraform-provider-alicloud/alicloud/connectivity"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/hashcode"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"

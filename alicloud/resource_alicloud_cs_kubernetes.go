@@ -22,10 +22,10 @@ import (
 
 	"strconv"
 
-	"github.com/aliyun/terraform-provider-alicloud/alicloud/connectivity"
 	"github.com/denverdino/aliyungo/common"
 	"github.com/denverdino/aliyungo/cs"
 	aliyungoecs "github.com/denverdino/aliyungo/ecs"
+	"github.com/getlantern/terraform-provider-alicloud/alicloud/connectivity"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"gopkg.in/yaml.v2"

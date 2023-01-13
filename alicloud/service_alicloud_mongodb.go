@@ -15,7 +15,7 @@ import (
 
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/dds"
-	"github.com/aliyun/terraform-provider-alicloud/alicloud/connectivity"
+	"github.com/getlantern/terraform-provider-alicloud/alicloud/connectivity"
 )
 
 type MongoDBService struct {

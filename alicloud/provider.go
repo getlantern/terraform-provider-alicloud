@@ -18,7 +18,7 @@ import (
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/sts"
 
-	"github.com/aliyun/terraform-provider-alicloud/alicloud/connectivity"
+	"github.com/getlantern/terraform-provider-alicloud/alicloud/connectivity"
 	"github.com/google/uuid"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/hashcode"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/mutexkv"

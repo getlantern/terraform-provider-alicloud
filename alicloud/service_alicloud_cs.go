@@ -18,9 +18,9 @@ import (
 	"encoding/json"
 
 	"github.com/alibabacloud-go/cs-20151215/v3/client"
-	"github.com/aliyun/terraform-provider-alicloud/alicloud/connectivity"
 	"github.com/denverdino/aliyungo/common"
 	"github.com/denverdino/aliyungo/cs"
+	"github.com/getlantern/terraform-provider-alicloud/alicloud/connectivity"
 )
 
 type CsService struct {

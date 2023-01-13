@@ -6,7 +6,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 
-	"github.com/aliyun/terraform-provider-alicloud/alicloud/connectivity"
+	"github.com/getlantern/terraform-provider-alicloud/alicloud/connectivity"
 
 	cs "github.com/alibabacloud-go/cs-20151215/v3/client"
 	"github.com/alibabacloud-go/tea/tea"

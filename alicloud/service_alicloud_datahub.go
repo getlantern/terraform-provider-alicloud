@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aliyun/terraform-provider-alicloud/alicloud/connectivity"
+	"github.com/getlantern/terraform-provider-alicloud/alicloud/connectivity"
 
 	"github.com/aliyun/aliyun-datahub-sdk-go/datahub"
 )

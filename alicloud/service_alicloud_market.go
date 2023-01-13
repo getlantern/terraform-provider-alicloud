@@ -2,7 +2,7 @@ package alicloud
 
 import (
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/market"
-	"github.com/aliyun/terraform-provider-alicloud/alicloud/connectivity"
+	"github.com/getlantern/terraform-provider-alicloud/alicloud/connectivity"
 )
 
 type MarketService struct {

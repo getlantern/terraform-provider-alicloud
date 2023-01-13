@@ -5,7 +5,7 @@ Terraform Provider For Alibaba Cloud
 - [![Gitter chat](https://badges.gitter.im/hashicorp-terraform/Lobby.png)](https://gitter.im/hashicorp-terraform/Lobby)
 - Mailing list: [Google Groups](http://groups.google.com/group/terraform-tool)
 
-<img src="https://cdn.rawgit.com/hashicorp/terraform-website/master/content/source/assets/images/logo-hashicorp.svg" width="400px"> 
+<img src="https://cdn.rawgit.com/hashicorp/terraform-website/master/content/source/assets/images/logo-hashicorp.svg" width="400px">
 
 
 <img src="https://www.datocms-assets.com/2885/1506527326-color.svg" width="400px">
@@ -15,7 +15,7 @@ Supported Versions
 ------------------
 
 | Terraform version | minimum provider version |maxmimum provider version
-| ---- | ---- | ----| 
+| ---- | ---- | ----|
 | >= 0.11.x	| 1.0.0	| latest |
 
 Requirements
@@ -31,7 +31,7 @@ Requirements
 Building The Provider
 ---------------------
 
-Clone repository to: `$GOPATH/src/github.com/aliyun/terraform-provider-alicloud`
+Clone repository to: `$GOPATH/src/github.com/getlantern/terraform-provider-alicloud`
 
 ```sh
 $ mkdir -p $GOPATH/src/github.com/aliyun; cd $GOPATH/src/github.com/aliyun
@@ -41,7 +41,7 @@ $ git clone git@github.com:aliyun/terraform-provider-alicloud
 Enter the provider directory and build the provider
 
 ```sh
-$ cd $GOPATH/src/github.com/aliyun/terraform-provider-alicloud
+$ cd $GOPATH/src/github.com/getlantern/terraform-provider-alicloud
 $ make build
 ```
 
@@ -84,7 +84,7 @@ $ make testacc
 Before making a release, the resources and data sources are tested automatically with acceptance tests (the tests are located in the alicloud/*_test.go files).
 You can run them by entering the following instructions in a terminal:
 ```
-cd $GOPATH/src/github.com/aliyun/terraform-provider-alicloud
+cd $GOPATH/src/github.com/getlantern/terraform-provider-alicloud
 export ALICLOUD_ACCESS_KEY=xxx
 export ALICLOUD_SECRET_KEY=xxx
 export ALICLOUD_REGION=xxx

@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	otsTunnel "github.com/aliyun/aliyun-tablestore-go-sdk/tunnel"
-	"github.com/aliyun/terraform-provider-alicloud/alicloud/connectivity"
+	"github.com/getlantern/terraform-provider-alicloud/alicloud/connectivity"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 )
